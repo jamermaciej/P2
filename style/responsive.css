@@ -1,0 +1,264 @@
+@media only screen and (max-width: 1200px) { 
+	.about-content {
+		margin-top: 10px;
+	}
+	.services .service-bg h2{
+		font-size: 7rem;
+	}
+	.subscribe-us {
+		background-position: top center;
+	}
+}
+
+
+@media only screen and (max-width: 992px) { 
+	.about-us .about-content {
+		margin-top: 30px;
+	}
+	.about-us h2 {
+		font-size: 4.5rem;
+	}
+	.about-us p {
+		font-size: 1.3rem;
+	}
+	.services {
+		padding: 70px 0;
+	}
+	.services .service-bg {
+		text-align: center;
+	}
+	.services .service-bg img {
+		margin: 0 auto;
+	}
+	.services .service-bg h2{
+		font-size: 5rem;
+	}
+	.services .service-btn {
+		margin-top: 50px;
+		padding-right: 15px;
+	}
+	.services button {
+		padding: 15px 20px 15px 30px;
+		max-width: 500px;
+		margin-right: 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.services button span {
+		font-size: 1.7rem;
+	}
+	.services button img {
+		height: 35px;
+		position: absolute;
+		right: 8%;
+	}
+	.gallery h2{
+		font-size: 4.5rem;
+	}
+	.gallery p {
+		font-size: 1.3rem;
+		padding: 0 100px 0;
+	}
+	.subscribe-us {
+		background-position: top center;
+	}
+	.subscribe-us p {
+		width: 80%;
+	}
+	.subscribe-us .form-inline input {
+		margin-bottom: 10px;
+	}
+	.blog {
+		padding: 70px 0;
+	}
+	.blog h2 {
+		font-size: 4.5rem;
+	}
+	.blog p {
+		font-size: 1.3rem;
+		margin-top: 15px;
+		padding: 0 100px 0;
+	}
+	.blog .blog-content {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.blog article {
+		margin-bottom: 10px;
+	}
+	.blog article span {
+		font-size: 1.6rem;
+		line-height: 20px;
+		width: 45px;
+		height: 45px;
+		top: 15px;
+		left: 15px;
+	}
+	.blog article .header-blog h4 {
+		font-size: 1.6rem;
+		line-height: 20px;
+	}
+	.blog article .header-blog {
+		padding: 50px 10px 15px 15px;
+	}
+	.blog a:hover img {
+		transform: scale(1);
+	}
+	.contact h2{
+		font-size: 4.5rem;
+	}
+	.contact form {
+		padding-right: 0;
+	}
+	.contact p {
+		padding: 0 100px;
+}
+
+@media only screen and (max-width: 768px) { 
+	.navbar-nav{
+		text-align: center;
+		}
+	.navbar-default .navbar-right li a{
+		border-top: none;
+	}
+	.navbar-default .navbar-right li:hover a,
+	.navbar-default .navbar-right li.active a {
+		border-top: none;
+		color: #ff6033;
+	}
+	.navbar-default .navbar-collapse {
+		border-top: none;
+		background: #FFF;
+	}
+	.navbar-default {
+		background: #FFF;
+	}
+	.navbar-fixed-top {
+		padding: 20px 0;
+		box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+	}
+	.navbar-default .navbar-toggle {
+		border: 0;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #262626;
+		transition: all 0.5s linear;
+	}
+	.navbar-default .navbar-toggle.active .icon-bar:nth-of-type(3) {
+		display: none;
+	}
+	.navbar-default .navbar-toggle.active .icon-bar:nth-of-type(2) {
+		transform: rotate(45deg);
+		position: relative;
+		top: 6px;
+		transition: all 0.5s linear;
+	}
+	.navbar-default .navbar-toggle.active .icon-bar:nth-of-type(4) {
+		transform: rotate(-45deg);
+		transition: all 0.5s linear;
+	}
+	.navbar-default .navbar-toggle:hover,
+	.navbar-default .navbar-toggle:focus{
+		background-color: transparent;
+	}
+	.header {
+		height: 100vh;
+	}
+	.header-info {
+		top: 30%;
+	}
+	.header-info h2 {	
+		font-size: 4.5rem;
+	}
+	.header-info p {
+		font-size: 1.3rem;
+		margin: 20px 0 35px 0;
+		}
+	.header-info button {
+		font-size: 1.6rem;
+		width: 180px;
+		height: 50px;
+	}
+	.scroll {
+		position: absolute;
+		bottom: 30px;
+	}
+	.about-us {
+		padding: 70px 0;
+		text-align: center;
+	}
+	.about-us .about-content {
+		margin: 0;
+		padding-left: 15px;
+	}
+	.services .service-bg {
+		margin-bottom: 20px;
+	}
+	.services .service-bg img {
+		margin: 0 auto;
+	}
+	.services .service-bg h2{
+		font-size: 4.5rem;
+	}
+	.services .service-btn {
+		margin-top: 0;
+	}
+	.gallery img {
+		max-width: 300px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.gallery p {
+		padding: 0 20px;
+	}
+	.subscribe-us .form-inline input {
+		width: 100%;
+	}
+	.subscribe-us button {
+		width: 100%;
+	}
+	.blog article .header-blog h4 {
+		font-size: 2rem;
+		line-height: 25px;
+	}
+	.blog p {
+		padding: 0 20px;
+	}
+	.blog article span {
+		font-size: 2.4rem;
+		line-height: 26px;
+		width: 60px;
+		height: 60px;
+		padding: 2px;
+		top: 30px;
+		left: 30px;
+	}
+	.blog article .header-blog p {
+		font-size: 1.3rem;
+		margin-top: 10px;
+		
+	}
+	.contact {
+		padding: 70px 0;
+	}
+	.contact h2{
+		font-size: 4.5rem;
+	}
+	.contact p {
+		font-size: 1.6rem;
+		margin: 20px 0 30px 0;
+		padding: 0 20px;
+	}
+	.contact form {	
+		padding-right: 0;
+	}
+	.contact address {
+		margin-top: 50px;
+		padding-left: 0;
+	}
+	footer .logo-footer {
+		margin: 10px 0;
+	}
+}
+
+
